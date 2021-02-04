@@ -38,3 +38,5 @@ Route::get('view/foreach_assoc', 'App\Http\Controllers\ViewController@foreach_as
 Route::get('view/forelse', 'App\Http\Controllers\HelloController@list');
 
 Route::get('view/master', 'App\Http\Controllers\ViewController@master');
+
+Route::get('view/comp', 'App\Http\Controllers\ViewController@comp');

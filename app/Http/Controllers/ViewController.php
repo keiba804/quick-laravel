@@ -47,6 +47,8 @@ class ViewController extends Controller
 	public function master(){
 		return view('view.master',['msg' =>'こんにちは、世界！']);
 	}
-
+	public function comp(){
+		return view('view.comp',['msg' =>'こんにちは、世界！']);
+	}
 }
 
